@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gray-900">
+    <div className="relative min-h-screen overflow-hidden bg-gray-900  ">
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div
@@ -58,7 +58,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-8">
 
         {/* Jewel Concepts Logo */}
-        <div className={`mb-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className={`mb-8 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="flex items-center space-x-4 mb-8">
             {/* Logo Recreation */}
             {/* <div className="relative">
@@ -74,10 +74,10 @@ export default function Home() {
               </div>
             </div> */}
             <div className="text-white">
-              <div className="text-2xl font-bold tracking-wider">
+              <div className="text-6xl font-bold tracking-wider">
                 <span className="text-yellow-500">JEWEL</span>
               </div>
-              <div className="text-2xl font-bold tracking-wider -mt-1">
+              <div className="text-6xl font-bold tracking-wider -mt-1">
                 CONCEPTS
               </div>
             </div>
@@ -86,19 +86,19 @@ export default function Home() {
 
         {/* Main Heading */}
         <div className={`text-center mb-12 transition-all duration-1000 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h1 className="text-5xl md:text-7xl font-light text-white mb-6 tracking-wide">
-            <span className="inline-block">Currently Under</span>
+          <h1 className="text-2xl md:text-4xl font-light text-white mb-6 tracking-wide">
+            <span className="inline-block">Website Currently Under Renovation</span>
             <br />
-            <span className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent font-medium">
-              Renovation
-            </span>
-            <br />
+            {/* <span className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent font-medium">
+            Renovation 
+            </span> */}
+            {/* <br /> */}
             {/* <span className="inline-block text-4xl md:text-5xl font-light text-gray-300">
               is Coming
             </span> */}
           </h1>
           <div className="w-32 h-0.5 bg-gradient-to-r from-transparent via-yellow-500 to-transparent mx-auto mb-8"></div>
-          <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl leading-relaxed">
+          <p className="text-xl md:text-xl text-gray-300 font-light max-w-3xl leading-relaxed">
             We're crafting exceptional interior experiences that blend luxury with innovation.
             Our new digital presence will showcase the artistry that defines every space we create.
           </p>
