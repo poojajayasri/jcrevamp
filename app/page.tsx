@@ -45,37 +45,19 @@ export default function Home() {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-8">
 
-        {/* Jewel Concepts Logo */}
+        {/* Logo */}
         <div className={`mb-20 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="flex items-center space-x-4 mb-12">
-            {/* Logo */}
-            <div className="relative">
-              <div className="w-16 h-16 relative">
-                {/* Shield Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-yellow-500 to-yellow-600 transform rotate-0 rounded-sm shadow-2xl"
-                  style={{
-                    clipPath: 'polygon(20% 0%, 80% 0%, 100% 25%, 100% 75%, 80% 100%, 20% 100%, 0% 75%, 0% 25%)'
-                  }}>
-                </div>
-                {/* Letter C */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-8 h-8 border-4 border-white border-r-transparent rounded-full"></div>
-                </div>
-              </div>
-            </div>
-            <div className="text-white">
-              <div className="text-2xl font-bold tracking-wider">
-                <span className="text-yellow-500">JEWEL</span>
-              </div>
-              <div className="text-2xl font-bold tracking-wider -mt-1">
-                CONCEPTS
-              </div>
-            </div>
+          <div className="flex items-center justify-center mb-12">
+            <img 
+              src="/WhatsApp Image 2025-07-08 at 17.13.09.jpeg" 
+              alt="Logo" 
+              className="w-48 h-48 object-contain"
+            />
           </div>
         </div>
 
         {/* Main Content */}
-        <div className={`text-center mb-16 transition-all duration-1000 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className={`text-center mb-16 transition-all duration-1000 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} -mt-24`}>
           <h1 className="text-3xl lg:text-6xl font-thin text-white mb-8 tracking-wide leading-tight">
             Website
             <br />
